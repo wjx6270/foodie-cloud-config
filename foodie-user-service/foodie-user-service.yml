@@ -1,0 +1,9 @@
+##健康检查相关
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'  #开启所有的actuator-endpoint
+  endpoint:
+    health:
+      show-details: always #总是展示所有健康详情
