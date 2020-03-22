@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    # 数据源的相关配置 TODO 这里最好也用单独的数据库foodie-cloud-item
+    url: jdbc:mysql://localhost:3306/foodie?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    password: '{cipher}AQALG9q1/6dZYWtBg4XoZy/Ni8uAeTP2Qt5cmB4PGiGXJhxzlNyNRS0uUWunLewQCVn+o9aqYHal2HJduTGCg6FII2SJrkp9hjqjl+JsRvFkOOGhZbOdsyQ/JwQpycAIY20AaCYwIdzEFLee3Ex3wkP3THRWXQE+jRXXuvzh3aKQFRIBQUWY4IzT5fDxJXA9hQmzplt+BkeuEfuC35nHl1JG9ZDOIfs3RZZvmFzZJiiVzK9ezc4/t1lcmq7j952RyBL48G0AjtLemOgo1o+C8HLXn0UdEAHfnT7aKXaUsB6cPs7s5EjrWb/h4dcJzx7gqsjjE6nq/eaNLkcHS5OAtQYgdRhCBMDQF0c5IrobgJYjAgFDs9rmqR8NAjOJDbh8EOc='
