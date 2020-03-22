@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: foodie-search-service
+    
+name: 金星
+age: 18
