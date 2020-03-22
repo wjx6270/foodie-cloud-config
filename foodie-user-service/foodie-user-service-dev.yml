@@ -4,4 +4,4 @@ mysql:
     
 user:
   registry:
-    enabled: false
+    enabled: true
